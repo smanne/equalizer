@@ -1,0 +1,70 @@
+.equalizer {
+    padding-top: 50px; 
+}
+
+.equalizer-bottomLabel {
+    padding-top: 10px; 
+}
+
+.equalizer-mediumLabel {
+    padding-top: 10px; 
+}
+
+.equalizer-topLabel {
+    padding-top: 10px; 
+}
+
+.equalizer-sliderContainer {
+    display: inline-block;
+    height: 200px;
+    width: 45px;
+}
+
+.equalizer-sliderGroup {
+    margin-top: 50px; 
+}
+
+.equalizer-sliderGroupLabels {
+    display: inline-block;
+    height: 200px;
+    width: 100px;
+    margin-right: 20px;  
+    vertical-align: top;
+    position: relative;
+}
+
+.equalizer-sliderGroupLabel {
+ position: absolute;
+ text-align: center;
+ width: 100%;
+}
+
+.equalizer-sliderGroupLabel--top {
+    top: 0%;
+}
+
+.equalizer-sliderGroupLabel--middle {
+    top: 45%;
+}
+
+.equalizer-sliderGroupLabel--bottom {
+    top: 95%;
+}
+
+.equalizer-sliderLabel {
+    text-align: left;
+    margin-top: 15px; 
+}
+
+.presets {
+    font-family: 'Nova Square', cursive;
+    height: 30px;
+    color: #37EF50;
+    background-color: black;
+    border: 1px solid #37EF50;
+    width: 300px;
+}
+
+.equalizer-values {
+    margin: 50px;
+}
